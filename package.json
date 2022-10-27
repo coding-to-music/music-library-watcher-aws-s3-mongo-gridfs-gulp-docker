@@ -1,10 +1,11 @@
 {
-  "name": "music-library-filesystem-watcher",
+  "name": "music-library-watcher-aws-s3-mongo-gridfs-gulp-docker",
   "version": "0.0.1",
   "description": "",
   "main": "s3-watcher.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "git add . && git commit -m Build && git push",
     "start": "node s3-watcher.js"
   },
   "author": "",
