@@ -2,6 +2,7 @@
   "name": "music-library-watcher-aws-s3-mongo-gridfs-gulp-docker",
   "version": "0.0.1",
   "description": "",
+  "type": "module",
   "main": "s3-watcher.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.28.0",
+    "dotenv": "^16.0.3",
     "jsmediatags": "^3.3.0",
     "mongodb": "^4.11.0",
     "mongoose": "^6.7.0",
