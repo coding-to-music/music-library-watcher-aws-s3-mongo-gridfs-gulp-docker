@@ -7,6 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "git add . && git commit -m Build && git push",
+    "s3": "node test-s3.js",
+    "try": "node test-s3-watcher.js",
     "start": "node s3-watcher.js"
   },
   "author": "",
