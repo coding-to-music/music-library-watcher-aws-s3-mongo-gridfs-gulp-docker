@@ -6,15 +6,17 @@ dotenv.config();
 
 // Create service client module using ES6 syntax.
 import { S3Client } from "@aws-sdk/client-s3";
+
 // Set the AWS Region.
 const REGION = process.env.REGION;
 // Create an Amazon S3 service client object.
+
 const s3Client = new S3Client({ region: REGION });
 export { s3Client };
 
 // Import required AWS SDK clients and commands for Node.js.
-import { ListObjectsCommand } from "@aws-sdk/client-s3";
-import { s3Client } from "./libs/s3Client.js"; // Helper function that creates an Amazon S3 service client module.
+// import { ListObjectsCommand } from "@aws-sdk/client-s3";
+// import { s3Client } from "./libs/s3Client.js"; // Helper function that creates an Amazon S3 service client module.
 
 // Create the parameters for the bucket
 export const bucketParams = { Bucket: process.env.NAME_OF_BUCKET };
