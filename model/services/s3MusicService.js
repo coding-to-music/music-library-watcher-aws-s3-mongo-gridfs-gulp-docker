@@ -1,3 +1,5 @@
+// export default s3MusicService;
+// module.exports = {
 require("dotenv").config();
 // console.log(process.env);
 
@@ -228,5 +230,4 @@ function checkValidExtension(extension) {
 
   return valid;
 }
-
 module.exports = s3MusicService;
