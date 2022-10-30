@@ -1,5 +1,7 @@
 # music-library-watcher-aws-s3-mongo-gridfs-gulp-docker
 
+Can't find module errors, can't run. Filesystem watcher for new tracks to populate Mongo
+
 # 🚀 Filesystem watcher for new tracks to populate Mongo 🚀
 
 https://github.com/coding-to-music/music-library-watcher-aws-s3-mongo-gridfs-gulp-docker
